@@ -45,7 +45,7 @@ Add the config file to root folder
 ;addons_path = 
 ```
 
-If you have a backups folder at root folder with .zip, .gzip, sql files run RestoreDump.py
+If you have a backups folder at root folder with .zip, .gzip, sql files, copy/create the RestoreDump.py on the root folder and run it
 
 ```
 python RestoreDump.py
