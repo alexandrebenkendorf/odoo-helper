@@ -47,6 +47,10 @@ Add the config file to root folder
 
 If you have a backups folder at root folder with .zip, .gzip, sql files, copy/create the RestoreDump.py on the root folder and run it
 
+Ps: Before running RestoreDump.py, disconnect all sessions from PostgresSQL (postico or other db management, stop the running servers etc)
+
+Depending on the size of the file, it may take a while.
+
 ```
 python RestoreDump.py
 ```
