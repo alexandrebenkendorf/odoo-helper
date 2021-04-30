@@ -76,3 +76,10 @@ Ps: Before running RestoreDump.py, disconnect all sessions from PostgresSQL (pos
 python RestoreDump.py
 ```
 Depending on the size of the file, it may take a while.
+
+
+Start the server with
+
+```
+./odoo-bin -c .odoorc
+```
