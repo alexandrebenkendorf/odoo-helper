@@ -92,7 +92,6 @@ Start the server with our custom configuration
 
 # In our case:
 ./odoo-bin -c .odoorc
-
 ```
 
 The odoo server will be running on default port: 8069 (localhost:8069)
