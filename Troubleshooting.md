@@ -2,8 +2,6 @@
 
 Here are some error I faced while working with odoo and what worked for me.
 
-Make sure you are on ?debug=assets mode
-
 
 ## The style compilation failed, see the error below. Your recent actions may be the cause, please try reverting the changes you made.
 
@@ -26,6 +24,8 @@ Whenever you edit the assets from the web editor, odoo creates:
 If you erase the filestore, you lose it and the error appears.
 
 ### Solution
+
+Make sure you are on ?debug=assets mode
 
 From Apps Home:
 
