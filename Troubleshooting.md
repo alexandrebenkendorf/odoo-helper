@@ -2,6 +2,8 @@
 
 Here are some error I faced while working with odoo and what worked for me.
 
+Make sure you are on ?debug=assets mode
+
 
 ## The style compilation failed, see the error below. Your recent actions may be the cause, please try reverting the changes you made.
 
