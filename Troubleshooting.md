@@ -5,7 +5,7 @@ Here are some error I faced while working with odoo and what worked for me.
 
 ## The style compilation failed, see the error below. Your recent actions may be the cause, please try reverting the changes you made.
 
-This error happened to me when I edited assets (scss and js) from the web editor and, for some reason, only the SQL were restored.
+This error happened to me when I edited the assets (scss and js) from the web editor and, for some reason, only the SQL were restored from a backup.
 
 ```
 The style compilation failed, see the error below. Your recent actions may be the cause, please try reverting the changes you made.
