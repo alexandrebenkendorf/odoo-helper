@@ -44,7 +44,8 @@ pip install -r requirements.txt
 pip install psycopg2-binary
 ```
 
-Add the config file to root folder
+Add the config file ```.odoorc``` to root folder
+
 
 ```
 [options]
@@ -78,10 +79,20 @@ python RestoreDump.py
 Depending on the size of the file, it may take a while.
 
 
-Start the server with
+Start the server with our custom configuration
+
+> The default configuration file is :file:`{$HOME}/.odoorc` which can be overridden using :option:`--config <odoo-bin -c>`. 
+> Specifying :option:`--save <odoo-bin -s>` will save the current configuration state back to that file.
+
 
 ```
+# Default
+./odoo-bin
+
+
+# In our case:
 ./odoo-bin -c .odoorc
+
 ```
 
 The odoo server will be running on default port: 8069 (localhost:8069)
