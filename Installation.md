@@ -66,8 +66,8 @@ Add the config file to root folder
 ;addons_path = 
 ```
 
-If you have backups to be restored, create a backups folder in the root folder 
-Place your backups (.zip, .gzip, sql files) there
+If you have backups to be restored, create a backups folder in the root folder and place your backups (.zip, .gzip, sql files) there
+
 Clone the RestoreDump.py into the root folder and run it
 
 Ps: Before running RestoreDump.py, disconnect all sessions from PostgresSQL (postico or other db management, stop the running servers etc)
