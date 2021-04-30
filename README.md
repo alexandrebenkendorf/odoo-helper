@@ -9,6 +9,14 @@ pyenv global 3.7
 python -m venv .venv
 ```
 
+Activate env
+
+```
+. .venv/bin/activate (mac)
+. .venv/Scripts/activate (windows git bash)
+
+```
+
 Install dependencies
 
 ```
@@ -37,7 +45,7 @@ Add the config file to root folder
 ;addons_path = 
 ```
 
-If you have a backups folder with .zip, .gzip, sql files run RestoreDump.py
+If you have a backups folder at root folder with .zip, .gzip, sql files run RestoreDump.py
 
 ```
 python RestoreDump.py
