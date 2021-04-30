@@ -83,3 +83,5 @@ Start the server with
 ```
 ./odoo-bin -c .odoorc
 ```
+
+The odoo server will be running on default port: 8069 (localhost:8069)
