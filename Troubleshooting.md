@@ -39,6 +39,7 @@ On Views:
 Add custom filter:
 - Arch Filename
 - is not set
+
 Apply
 
 You now may see the QWeb views for these files.
