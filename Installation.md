@@ -1,10 +1,14 @@
-# Instalation
+# Instalation 
 
-Clone the Community version and enter the dir to start doing stuff
+Quick guide to install odoo on mac
+
+More info on [Odoo Documentation](https://www.odoo.com/documentation/14.0/setup/install.html#source-install)
 
 ***This guide doesn't include the PostgreSQL installation.***
 
 ***Ps: I'm using the alias python for python3***
+
+Clone the Community version and enter the dir to start doing stuff
 
 ```
 git clone https://github.com/odoo/odoo.git myodoo
@@ -42,6 +46,12 @@ Install dependencies
 pip install setuptools wheel
 pip install -r requirements.txt
 pip install psycopg2-binary
+```
+
+Install non-python dependencies
+
+```
+xcode-select --install
 ```
 
 Add the config file ```.odoorc``` to root folder
