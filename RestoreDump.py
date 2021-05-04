@@ -72,7 +72,8 @@ class RestoreDump:
         queries = [
             "UPDATE ir_mail_server SET active=false",
             "UPDATE ir_module_module SET state='uninstalled' WHERE name='amazon_s3_storage'",
-            "DELETE FROM ir_ui_view WHERE arch_fs ILIKE '%s3%'"
+            "DELETE FROM ir_ui_view WHERE arch_fs ILIKE '%s3%'",
+            "DELETE FROM bill_com_config",
             "DELETE FROM ir_ui_view WHERE id IN (2351,2345,2346,2360)",
         ]
         if not self.keep_attachments:
